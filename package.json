@@ -4,7 +4,8 @@
   "description": "building single-page web App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --progress --color",
+    "start": "webpack-dev-server --inline --content-base --hot"
   },
   "repository": {
     "type": "git",

@@ -16,11 +16,11 @@ module.exports = {
     },
     watch: true,
     resolve: {
-        extensions: ['.jsx', '.js', '.json']
+        extensions: ['.jsx', '.js']
     },
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
+        contentBase: path.join(__dirname, "dist"),
         compress: true,
-        port: 9000
+        port: 4000
     }
 }
